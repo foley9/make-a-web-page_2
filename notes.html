@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+	<TITLE>HTML Lesson Notes</TITLE>
+	<link rel="stylesheet" href="css_notes.css">
+</HEAD>
+
+<body>
+	<div class="lesson">
+		<h2>Lesson 1: The Basics of the Web and HTML</h2>
+			<div class="int_box"> 
+				<div class="topics">
+					<b>What will be taught in this section:</b>
+				</div>
+			<div class="notes">
+				Basics of the Web and html, learn to see code and guess what the page will look like<br>
+				Creating a structured Doc with html, look at page predict what html loks like<br>
+				adding style to structure with css, avoid repitition with css<br>
+				<p>
+					<b>HTML - Hyper Text Markup Language</b>
+					HTML is the standardized system for formatting the text documents that make up web pages.
+					Most of HTML is regular text, but then there are tags and elements. Tags tell the browser how to display the elements of the web page. From formatting the text, like bold or italic, to adding images, videos and hyper links.
+				 </p>
+		</div>
+		<div class="topics">
+				<b>Tags</b>
+		</div>
+		<div class="notes">			 
+		 	Tags are instructions to the browser on how to display the data in the html document.  There are many tags, tags to bold text, italicize, center, line break. 
+		</div>
+		<div class="topics">
+			<b>Inline vs Block Elements</b>
+		</div>
+			HTML elements are either inline, just text entered like in a notepad or word doc, or Block, which puts the element into a small invisible box.
+
+			<BR>This is a new sentence without a paragraph break
+			<P> 
+			<P> <B>This is a new paragraph!</B>
+			<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
+			<br><br><a href="http://www.reddit.com">Reddit is awesome!</a>
+			this a link to the website Reddit.com<br><br>
+
+			Here is a nice pic: <img src="example.gif" alt="Sample image">
+			<P> <B>This is a new paragraph!</B><br>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2>Lesson 2: Creating Structured Docs with HTML</h2>
+			<div class="int_box">
+				<div class="topics">
+					<b>3 languages commonly used in web development:</b>
+				</div>
+				html, css, and javascript. Each has a different purpose.<br>
+				<b>html and css are both languages</b>, we will get to javascript later.<br>html controls the structure of a web page<br>
+				css controls the style
+			<div class="topics">
+				<b>Developer Tools</b> 
+			</div>
+				using a live web page to learn how to use Google developer tools in the Chrome browser: 
+				<i>observing wikipedia page:</i>  in google chrome,click the 3 bars in upper right corner, select tools, then developer tools - this launches the developer tools where you can view the code tha makes that page<br>
+			<div class="topics">
+				<b>Layout, everything is a box.</b>
+			</div>
+				 When given a layout, break up the page into boxes, and boxes inside of boxes.  dont worry about content, just working on layout.<br>
+				these boxes are broken up in html by <b>div tags</b> and styles can be apllied to to each element.
+			<div class="topics">
+				<b>Structured Code</b>
+			</div>
+				Structured programming is a style of code that focuses on being easy to read and update through the use of sub-routines and for and while loops; and avoidance of non-structured commands like the go-to command.  Structured code usually has 1 entry point that starts at the top and works down to one entry point at the bottom.  Older non-structured programming languages, like Cobal, used Go-to commands which would have you jump all over from line to line and it made it very hard to read and to maintain.<br>
+				Structured code is easy to look at and understand what is happening as related elements are palced under each other in a <em>tree-like format</em>.  Like a family tree, the parent would be listed, then branch to the children, tree-like coding has related elements branch under their parent element.
+				<br>
+				<b>DOM Document Object Model</b> - DOM is a logical structure of related elements being indented in a tree-like model.  Since everything is a box, this basically means a box inside of another box is indented under the larger box in the document code. DOM is the standard convention for representing and interacting with elements in html. 	
+		</div>
+	</div>
+	<div class="lesson">
+		<h2>Lesson 3: Adding CSS Style to HTML structure</h2>
+		<div class="int_box">
+			<div class="topics">
+				<b>CSS: Cascading Style Sheets</b>
+			</div>
+				CSS is a seperate language that is used to create the style of a webpage.HTML documents are instructed to reference a CSS document to look up the styles to use.<br>
+				CSS uses a <b>Class</b> to define style, things like font, size, spacing, and color can all be defined in a class. Then elements in the html document are assigned to that class and all the class properties will be applied to that element.<br> 
+				<b>Avoid Repetition</b>
+				CSS allows you to set style classes, then you can apply that class to any element and not have to repeat all of the tags that make up that style. This allows you to not have to reapply the tags over and over again to mulitple elements.<br>
+				<b>Consistency</b> Appying css styles to elements is a good way to keep a consistant look throughout your website. And if you want to make a change, changing the one class will update all elements assigned to that class.
+			<div class="topics">
+				<b>Debugging HTML and CSS</b>
+			</div>
+				steps for finding errors in html and css documents:<br>
+				first check syntax, check all element tags are closed, look for missing characters like semicolons, quotes or brackets<br>
+				use a validation tool that scans your code and shows any errors. <a href="http://validator.w3.org/#validate_by_input">W3C Validator</a> W3C is an example of an html validation tool.<br>
+				<b>Cross-browser issues</b> a common problem is a website displaying different on different web broswers.  to minimize these errors, use CSS reset, like <i>"normalize"</i> this makes most browsers perform in a more standardized way.<br>
+				use Developer tools in chrome or firefox to turn on and off elements and see how they effect the page.  this is a good way to see which element may be causing the display issue.
+		</div>
+	</div>
+</BODY>
+</html>
